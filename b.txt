@@ -1,0 +1,43 @@
+POST signup ? email kia@mail.com username kia password kos age 20 publisher true
+PUT films ? film_id 1 name kia
+POST films ? name ir year 78 length 18 price 20 summary hell director alibaba1
+POST films ? name ir year 78 length 18 price 2000 summary hell director alibaba2
+POST films ? name ir year 78 length 18 price 2000 summary hell director alibaba3
+PUT films ? film_id 5 name kia
+PUT films ? film_id 1 name kia
+POST followers ? user_id 2
+POST signup ? email kia@mail.com username parsa password kos age 20 publisher true
+POST films ? name na year 80 length 18 price 20 summary hell director alibaba4
+POST films ? name are year 80 length 18 price 2000 summary hell director alibaba5
+PUT films ? film_id 4 name an
+GET films ? name an
+POST signup ? email kia@mail.com username saeed password kos age 20 publisher true
+POST login ? username kia password kos
+POST followers ? user_id 2
+POST login ? username saeed password kos
+POST followers ? user_id 2
+POST login ? username parsa password kos
+GET notifications
+POST money ? amount   500000
+GET   followers
+POST buy ? film_id 1
+POST buy ? film_id 3
+POST comment ? film_id 3 content kiri
+POST login ? username saeed password kos
+POST money ? amount   500000
+POST buy ? film_id 3
+POST rate ? film_id 3 score 9
+POST rate ? film_id 3 score 8
+POST rate ? film_id 3 score 1
+POST comment ? film_id 1 content kiri
+POST login ? username kia password kos
+POST replies ? comment_id 2 film_id 1 content bashe
+POST replies ? comment_id 1 film_id 1 content bashe
+POST replies ? comment_id 2 film_id 1 content razishodi
+POST login ? username parsa password kos
+GET notifications
+POST login ? username saeed password kos
+GET notifications
+POST signup ? email kia@mail.com username sinaa password kos age 20 publisher true
+POST buy ? film_id 3
+GET films ? film_id 3
